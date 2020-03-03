@@ -5,7 +5,7 @@
 2. **Calcul scientifique** ---> *cal-sci*
 > (calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale)
 3. **Electronique analogique** ---> *elect-ana*
-> (AOp, génération de signaux, filtres)
+> (AOp, générateur de signaux, filtres)
 4. **Electronique numérique** ---> *elect-num*
 > (aspects technologiques des circuits combinatoires, mémoires)
 5. **Traitement du signal** ---> *sig-proc*
