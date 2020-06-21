@@ -1,4 +1,4 @@
-# À propos de ce dossier
+# À propos du dossier
 ------
 1. **Automatique de base** ---> *aut-cont*
 > (signaux & systèmes, systèmes asservis, régulation)
