@@ -10,4 +10,6 @@
 > (aspects technologiques des circuits combinatoires, mémoires)
 5. **Traitement du signal** ---> *sig-proc*
 > (signaux : synthèse et représentation, convolution et filtrage)
+5. **Systèmes multivariables** ---> *smv*
+> (modélisation, équation d'état, commandabilité, cde par retour d'état, observabilité et observateur d'état) 
 
