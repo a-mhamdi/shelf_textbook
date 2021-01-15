@@ -5,11 +5,11 @@
 2. **Calcul scientifique** ---> *cal-sci*
 > (calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale)
 3. **Electronique analogique** ---> *elect-ana*
-> (AOp, générateur de signaux, filtres)
+> (ALI, générateur de signaux, filtres)
 4. **Electronique numérique** ---> *elect-num*
 > (aspects technologiques des circuits combinatoires, mémoires)
-5. **Traitement du signal** ---> *sig-proc*
+5. **Traitement de signal** ---> *sig-proc*
 > (signaux : synthèse et représentation, convolution et filtrage)
 5. **Systèmes multivariables** ---> *smv*
-> (modélisation, équation d'état, commandabilité, cde par retour d'état, observabilité et observateur d'état) 
+> (modélisation, équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état) 
 
