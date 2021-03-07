@@ -2,6 +2,10 @@
 ------
 1. **Automatique de base** ---> *aut-cont*
 > (signaux & systèmes, systèmes asservis, régulation)
+
+```
+(modélisation, modèle de comportement, identification graphique : BO & BF) 
+```
 2. **Calcul scientifique** ---> *cal-sci*
 > (calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale)
 3. **Electronique analogique** ---> *elect-ana*
