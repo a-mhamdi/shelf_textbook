@@ -1,15 +1,15 @@
 ### Organisation du dossier
 ------
 ##### **aut-cont**  *(Automatique)* 
-    > **tb-aut-base** *(Automatique de base)*
+> **tb-aut-base** *(Automatique de base)*
 ```
 signaux & systèmes, systèmes asservis, régulation
 ```
-    > **tb-model** *(Modélisation)*
+> **tb-model** *(Modélisation)*
 ```
 (modélisation, modèle de comportement, identification graphique : BO & BF
 ```
-    > **tb-smv** *(Systèmes multivariables)*
+> **tb-smv** *(Systèmes multivariables)*
 ```
 modélisation, équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état 
 ```
