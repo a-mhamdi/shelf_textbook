@@ -1,31 +1,24 @@
 ### Organisation du dossier
 ------
 ##### **aut-cont**  *(Automatique)* 
-> **tb-aut-base** *(Automatique de base)*
 ```
-signaux & systèmes, systèmes asservis, régulation
+###### **tb-aut-base** *(Automatique de base)*
 ```
-> **tb-model** *(Modélisation)*
+> signaux & systèmes, systèmes asservis, régulation
 ```
-(modélisation, modèle de comportement, identification graphique : BO & BF
+###### **tb-model** *(Modélisation)*
 ```
-> **tb-smv** *(Systèmes multivariables)*
+> modélisation, modèle de comportement, identification graphique : BO & BF
 ```
-modélisation, équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état 
+**tb-smv** *(Systèmes multivariables)*
 ```
+> équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état 
 ##### **cal-sci** *(Calcul scientifique)*
-```
-calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale
-```
+> calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale
 ##### **elect-ana** *(Electronique analogique)* 
-```
-ALI, générateur de signaux, filtres
-```
+> ALI, générateur de signaux, filtres
 ##### **elect-num** *(Electronique numérique)*
-```
-aspects technologiques des circuits combinatoires, mémoires
-```
+> aspects technologiques des circuits combinatoires, mémoires
 ##### **sig-proc** *(Traitement de signal)*
-```
-signaux : synthèse et représentation, convolution et filtrage
-```
+> signaux : synthèse et représentation, convolution et filtrage
+
