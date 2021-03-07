@@ -1,10 +1,10 @@
 ## Organisation du dossier
 
-1. [Automatique](#aut-cont)
-2. [Calcul scientifique](#cal-sci)
-3. [Electronique analogique](#elect-ana)
-4. [Electronique numérique](#elect-num)
-5. [Traitement de signal](#sig-proc)
+1. [Automatique](https://github.com/a-mhamdi/isetbz/tree/master/aut-cont)
+2. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/master/cal-sci)
+3. [Electronique analogique](https://github.com/a-mhamdi/isetbz/tree/master/elect-ana)
+4. [Electronique numérique](https://github.com/a-mhamdi/isetbz/tree/master/elect-num)
+5. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/master/sig-proc)
 ------
 #### **aut-cont**  *(Automatique)* <a name="aut-cont"></a>
 > ##### **tb-aut-base** *(Automatique de base)*
