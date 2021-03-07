@@ -1,7 +1,7 @@
 # À propos du dossier
 ------
-### 1. **Automatique** ---> *aut-cont*
-> tb-aut-base : **Automatique de base**
+#### 1. **Automatique** *(aut-cont)*
+> *tb-aut-base* **Automatique de base**
 ```
 (signaux & systèmes, systèmes asservis, régulation)
 ```
@@ -13,19 +13,19 @@
 ```
 (modélisation, équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état) 
 ```
-### 2. **Calcul scientifique** ---> *cal-sci*
+#### 2. **Calcul scientifique** ---> *cal-sci*
 ```
 (calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale)
 ```
-### 3. **Electronique analogique** ---> *elect-ana*
+#### 3. **Electronique analogique** ---> *elect-ana*
 ```
 (ALI, générateur de signaux, filtres)
 ```
-### 4. **Electronique numérique** ---> *elect-num*
+#### 4. **Electronique numérique** ---> *elect-num*
 ```
 (aspects technologiques des circuits combinatoires, mémoires)
 ```
-### 5. **Traitement de signal** ---> *sig-proc*
+#### 5. **Traitement de signal** ---> *sig-proc*
 ```
 (signaux : synthèse et représentation, convolution et filtrage)
 ```
