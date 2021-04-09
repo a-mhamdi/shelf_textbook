@@ -3,8 +3,9 @@
 1. [Automatique](https://github.com/a-mhamdi/isetbz/tree/master/aut-cont)
 2. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/master/cal-sci)
 3. [Electronique analogique](https://github.com/a-mhamdi/isetbz/tree/master/elect-ana)
-4. [Electronique numérique](https://github.com/a-mhamdi/isetbz/tree/master/elect-num)
-5. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/master/sig-proc)
+4. [Electronique de commande](https://github.com/a-mhamdi/isetbz/tree/master/elect-cde)
+5. [Electronique numérique](https://github.com/a-mhamdi/isetbz/tree/master/elect-num)
+6. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/master/sig-proc)
 ------
 #### **aut-cont**  *(Automatique)* <a name="aut-cont"></a>
 > ##### **tb-aut-base** *(Automatique de base)*
@@ -26,6 +27,10 @@ calcul matriciel, résolution numérique des équations différentielles, interp
 #### **elect-ana** *(Electronique analogique)* <a name="elect-ana"></a>
 ```
 ALI, montages de base, générateur de signaux, filtres
+```
+#### **elect-cde** *(Electronique de commande)* <a name="elect-cde"></a>
+```
+RS232, MAX232, ALI, NE555, commande en position
 ```
 #### **elect-num** *(Electronique numérique)* <a name="elect-num"></a>
 ```
