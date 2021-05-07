@@ -1,4 +1,4 @@
-![alt text](logo-isetbz.png)
+![ISET de Bizerte](logo-isetbz.png)
 
 ## Organisation du dossier
 
