@@ -1,11 +1,11 @@
 ## Organisation du dossier
 
-1. [Automatique](https://github.com/a-mhamdi/isetbz/tree/master/aut-cont)
-2. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/master/cal-sci)
-3. [Electronique analogique](https://github.com/a-mhamdi/isetbz/tree/master/elect-ana)
-4. [Electronique de commande](https://github.com/a-mhamdi/isetbz/tree/master/elect-cde)
-5. [Electronique numérique](https://github.com/a-mhamdi/isetbz/tree/master/elect-num)
-6. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/master/sig-proc)
+1. [Automatique](https://github.com/a-mhamdi/isetbz/tree/main/aut-cont)
+2. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/main/cal-sci)
+3. [Electronique analogique](https://github.com/a-mhamdi/isetbz/tree/main/elect-ana)
+4. [Electronique de commande](https://github.com/a-mhamdi/isetbz/tree/main/elect-cde)
+5. [Electronique numérique](https://github.com/a-mhamdi/isetbz/tree/main/elect-num)
+6. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/sig-proc)
 ------
 #### **aut-cont**  *(Automatique)* <a name="aut-cont"></a>
 > ##### **tb-aut-base** *(Automatique de base)*
