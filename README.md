@@ -1,3 +1,5 @@
+![alt text](logo-isetbz.png)
+
 ## Organisation du dossier
 
 1. [Automatique](https://github.com/a-mhamdi/isetbz/tree/main/aut-cont)
