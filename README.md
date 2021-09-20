@@ -7,7 +7,7 @@
 3. [Electronique analogique](https://github.com/a-mhamdi/isetbz/tree/main/elect-ana)
 4. [Electronique de commande](https://github.com/a-mhamdi/isetbz/tree/main/elect-cde)
 5. [Electronique numérique](https://github.com/a-mhamdi/isetbz/tree/main/elect-num)
-6. [Machine Learning](https://github.com/a-mhamdi/isetbz/tree/main/ml)
+6. [Machine learning](https://github.com/a-mhamdi/isetbz/tree/main/ml)
 7. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/sig-proc)
 ------
 #### **aut-cont**  *(Automatique)* <a name="aut-cont"></a>
@@ -39,7 +39,7 @@ RS232, MAX232, ALI, NE555, commande en position
 ```
 aspects technologiques des circuits combinatoires, mémoires
 ```
-#### **ml** *(Machine Learning)* <a name="ml"></a>
+#### **ml** *(Machine learning)* <a name="ml"></a>
 ```
 linear regression, classification, clustering, ann, cnn
 ```
