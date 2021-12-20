@@ -11,34 +11,28 @@
 7. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/Traitement%20de%20signal)
 ------
 ### **Automatique**
-##### **cours-automatique-base**
+#### **cours-automatique-base**
 *(signaux & systèmes, systèmes asservis, régulation)*
-##### **cours-modélisation**
+#### **cours-modélisation**
 *(modélisation, modèle de comportement, identification graphique : BO & BF)*
-##### **cours-systèmes-multivariables**
+#### **cours-systèmes-multivariables**
 *(équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état )*
 
 ### **Calcul scientifique**
 *(calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale)*
-```
-#### **Électronique analogique** <a name="elect-ana"></a>
-```
-ALI, montages de base, générateur de signaux, filtres
-```
-#### **Électronique de commande** <a name="elect-cde"></a>
-```
-RS232, MAX232, ALI, NE555, commande en position
-```
-#### **Électronique numérique** <a name="elect-num"></a>
-```
-aspects technologiques des circuits combinatoires, mémoires
-```
-#### **Machine learning** <a name="ml"></a>
-```
-linear regression, classification, clustering, ann, cnn
-```
-#### **Traitement de signal** <a name="sig-proc"></a>
-```
-signaux : synthèse et représentation, convolution et filtrage, Fourier
-```
+
+### **Électronique analogique**
+*(ALI, montages de base, générateur de signaux, filtres)*
+
+### **Électronique de commande**
+*(RS232, MAX232, ALI, NE555, commande en position)*
+
+### **Électronique numérique**
+*(aspects technologiques des circuits combinatoires, mémoires)*
+
+### **Machine learning**
+*(linear regression, classification, clustering, ann, cnn)*
+
+### **Traitement de signal**
+*(signaux : synthèse et représentation, convolution et filtrage, Fourier)*
 
