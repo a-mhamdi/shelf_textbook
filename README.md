@@ -11,9 +11,12 @@
 7. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/Traitement%20de%20signal)
 ------
 ### **Automatique**
-##### **cours-automatique-base** *(signaux & systèmes, systèmes asservis, régulation)*
-##### **cours-modélisation** *(modélisation, modèle de comportement, identification graphique : BO & BF)*
-##### **cours-systèmes-multivariables** *(équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état )*
+##### **cours-automatique-base**
+*(signaux & systèmes, systèmes asservis, régulation)*
+##### **cours-modélisation**
+*(modélisation, modèle de comportement, identification graphique : BO & BF)*
+##### **cours-systèmes-multivariables**
+*(équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état )*
 
 ### **Calcul scientifique**
 *(calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale)*
