@@ -2,13 +2,13 @@
 
 ## Organisation du dossier
 
-1. [Automatique](https://github.com/a-mhamdi/isetbz/tree/main/aut-cont)
-2. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/main/cal-sci)
-3. [Electronique analogique](https://github.com/a-mhamdi/isetbz/tree/main/elect-ana)
-4. [Electronique de commande](https://github.com/a-mhamdi/isetbz/tree/main/elect-cde)
-5. [Electronique numérique](https://github.com/a-mhamdi/isetbz/tree/main/elect-num)
-6. [Machine learning](https://github.com/a-mhamdi/isetbz/tree/main/ml)
-7. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/sig-proc)
+1. [Automatique](https://github.com/a-mhamdi/isetbz/tree/main/Automatique)
+2. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/main/Calcul%20scientifique)
+3. [Electronique analogique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20analogique)
+4. [Electronique de commande](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20de%20commande)
+5. [Electronique numérique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20numérique)
+6. [Machine learning](https://github.com/a-mhamdi/isetbz/tree/main/Machine%20learning)
+7. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/Traitement%20de%20signal)
 ------
 #### **Automatique** <a name="aut-cont"></a>
 > ##### **cours-automatique-base**
@@ -27,15 +27,15 @@ modélisation, modèle de comportement, identification graphique : BO & BF
 ```
 calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale
 ```
-#### **Electronique analogique** <a name="elect-ana"></a>
+#### **Électronique analogique** <a name="elect-ana"></a>
 ```
 ALI, montages de base, générateur de signaux, filtres
 ```
-#### **Electronique de commande** <a name="elect-cde"></a>
+#### **Électronique de commande** <a name="elect-cde"></a>
 ```
 RS232, MAX232, ALI, NE555, commande en position
 ```
-#### **Electronique numérique** <a name="elect-num"></a>
+#### **Électronique numérique** <a name="elect-num"></a>
 ```
 aspects technologiques des circuits combinatoires, mémoires
 ```
