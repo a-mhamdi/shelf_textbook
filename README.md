@@ -7,15 +7,15 @@
 3. [Électronique analogique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20analogique)
 4. [Électronique de commande](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20de%20commande)
 5. [Électronique numérique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20numérique)
-6. [Machine learning](https://github.com/a-mhamdi/isetbz/tree/main/Machine%20learning)
+6. [Machine Learning](https://github.com/a-mhamdi/isetbz/tree/main/Machine%20learning)
 7. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/Traitement%20de%20signal)
 ------
 ### **Automatique**
-#### **cours-automatique-base**
+#### **Exposé-Automatique de base**
 *(signaux & systèmes, systèmes asservis, régulation)*
-#### **cours-modélisation**
+#### **Cours-Modélisation des systèmes**
 *(modélisation, modèle de comportement, identification graphique : BO & BF)*
-#### **cours-systèmes-multivariables**
+#### **Cours-Systèmes multivariables**
 *(équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état )*
 
 ### **Calcul scientifique**
@@ -30,7 +30,7 @@
 ### **Électronique numérique**
 *(aspects technologiques des circuits combinatoires, mémoires)*
 
-### **Machine learning**
+### **Machine Learning**
 *(linear regression, classification, clustering, ann, cnn)*
 
 ### **Traitement de signal**
