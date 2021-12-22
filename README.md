@@ -11,13 +11,11 @@
 7. [Électronique numérique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20numérique)
 
 ------
-### **Automatique**
-#### **Cours-Modélisation des systèmes**
+### **Modélisation des systèmes**
 *(modélisation, modèle de comportement, identification graphique : BO & BF)*
-#### **Cours-Systèmes multivariables**
+
+### **Systèmes multivariables**
 *(équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état )*
-#### **Exposé-Automatique de base**
-*(signaux & systèmes, systèmes asservis, régulation)*
 
 ### **Calcul scientifique**
 *(calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale)*
