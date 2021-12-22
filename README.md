@@ -9,7 +9,6 @@
 5. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/Traitement%20de%20signal)
 6. [Électronique analogique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20analogique)
 7. [Électronique de commande](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20de%20commande)
-8. [Électronique numérique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20numérique)
 
 ------
 
@@ -34,5 +33,3 @@
 ### **Électronique de commande**
 *(RS232, MAX232, ALI, NE555, commande en position)*
 
-### **Électronique numérique**
-*(aspects technologiques des circuits combinatoires, mémoires)*
