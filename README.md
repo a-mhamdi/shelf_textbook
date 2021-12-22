@@ -2,26 +2,28 @@
 
 ## Organisation du dossier
 
-1. [Automatique](https://github.com/a-mhamdi/isetbz/tree/main/Automatique)
-2. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/main/Calcul%20scientifique)
-3. [Machine Learning](https://github.com/a-mhamdi/isetbz/tree/main/Machine%20learning)
-4. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/Traitement%20de%20signal)
-5. [Électronique analogique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20analogique)
-6. [Électronique de commande](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20de%20commande)
-7. [Électronique numérique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20numérique)
+1. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/main/Calcul%20scientifique)
+2. [Machine Learning](https://github.com/a-mhamdi/isetbz/tree/main/Machine%20learning)
+3. [Modélisation des systèmes](https://github.com/a-mhamdi/isetbz/tree/main/Mod%C3%A9lisation%20des%20syst%C3%A8mes)
+4. [Systèmes multivariables](https://github.com/a-mhamdi/isetbz/tree/main/Systèmes%20multivariables)
+5. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/Traitement%20de%20signal)
+6. [Électronique analogique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20analogique)
+7. [Électronique de commande](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20de%20commande)
+8. [Électronique numérique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20numérique)
 
 ------
-### **Modélisation des systèmes**
-*(modélisation, modèle de comportement, identification graphique : BO & BF)*
-
-### **Systèmes multivariables**
-*(équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état )*
 
 ### **Calcul scientifique**
 *(calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale)*
 
 ### **Machine Learning**
 *(linear regression, classification, clustering, ann, cnn)*
+
+### **Modélisation des systèmes**
+*(modélisation, modèle de comportement, identification graphique : BO & BF)*
+
+### **Systèmes multivariables**
+*(équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état )*
 
 ### **Traitement de signal**
 *(signaux : synthèse et représentation, convolution et filtrage, Fourier)*
