@@ -1,5 +1,3 @@
-![ISET de Bizerte](logo-isetbz.png)
-
 ## Organisation du dossier
 
 1. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/main/Calcul%20scientifique)
@@ -29,3 +27,4 @@
 ### **Électronique de commande**
 *(RS232, MAX232, ALI, NE555, commande en position)*
 
+![ISET de Bizerte](logo-isetbz.png)
