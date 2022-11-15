@@ -1,7 +1,7 @@
 ## Organisation du dossier
 
+1. [Artificial Intelligence](https://github.com/a-mhamdi/isetbz/tree/main/Artificial%20Intelligence)
 1. [Calcul scientifique](https://github.com/a-mhamdi/isetbz/tree/main/Calcul%20scientifique)
-1. [Machine Learning](https://github.com/a-mhamdi/isetbz/tree/main/Machine%20Learning)
 1. [Modélisation et commande des systèmes](https://github.com/a-mhamdi/isetbz/tree/main/Mod%C3%A9lisation%20et%20commande%20des%20syst%C3%A8mes)
 1. [Traitement de signal](https://github.com/a-mhamdi/isetbz/tree/main/Traitement%20de%20signal)
 1. [Électronique analogique](https://github.com/a-mhamdi/isetbz/tree/main/Électronique%20analogique)
@@ -9,11 +9,11 @@
 
 ------
 
+### **Artificial Intelligence**
+*(linear regression, classification, clustering, fuzzy logic, deep learning)*
+
 ### **Calcul scientifique**
 *(calcul matriciel, résolution numérique des équations différentielles, interpolation polynomiale)*
-
-### **Machine Learning**
-*(linear regression, classification, clustering, ann, cnn)*
 
 ### **Modélisation et commande des systèmes**
 *(modélisation, modèle de comportement, identification graphique : BO & BF, équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état)*
