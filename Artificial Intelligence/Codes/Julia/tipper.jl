@@ -41,5 +41,5 @@ savefig(graphs, "./images/mf-graphs.pdf")
 
 # FUZZY INFERENCE SYSTEM: MAMDANI
 fis = FISMamdani([food, service], tip, rules)
-eval_fis(fis, [9., 9.])
+eval_fis(fis, [9., 8.])
 
