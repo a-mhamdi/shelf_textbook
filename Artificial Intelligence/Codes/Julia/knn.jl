@@ -1,21 +1,23 @@
-Here is an example of KNN implemented in Julia:
+using CSV, DataFrames
 
-using Distances
-using StatsBase
+df = CSV.read("../Datasets/Social_Network_Ads.csv", DataFrame)
+x = Float64.(df[!, 2]);
+y = df[!, end];
 
-function knn(X::Array{T, 2}, y::Array{U, 1}, x::Array{T, 1}, k::Int) where {T <: Real, U}
-    # Calculate distances between x and each point in X
-    dists = pairwise(Euclidean(), X, x)
+println(typeof(x), size(x))
+l = size(x)[1]
 
-    # Sort the distances and indices in ascending order
-    sorted_dists = sortperm(dists)
+using Plots; unicodeplots() 
+g1 = scatter(x, y; c=y, legend=false); 
 
-    # Take the top k distances and their corresponding y values
-    y_neighbors = y[sorted_dists[1:k]]
+using NearestNeighbors
 
-    # Return the majority vote of the neighbors
-    return mode(y_neighbors)
-end
+# KDTree(data, metric; leafsize, reorder)
+tree = KDTree(x')
+# Initialize k for k-NN
+k = 3
 
+tst = rand(1:l, Int(.2*l)) 
+# Find nearest neighbors using k-NN and k-d tree
+idxs, dists = knn(tree, x[tst], k, true)
 
-This implementation uses the Distances and StatsBase packages to calculate distances and perform a majority vote. It takes as input the training data X and labels y, the test point x, and the number of nearest neighbors k, and returns the predicted label for x.
