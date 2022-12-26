@@ -2,6 +2,7 @@ using Flux
 
 epochs = 20
 
+#=
 x = -1:.1:1
 n = length(x)
 x1 = x2 = Array{Float64}[];
@@ -11,39 +12,45 @@ for i ∈ 1:n
 end
 
 X = hcat(x1, x2)
-y = ones(n^2, 1)
-
-vscodedisplay(X, "X")
-vscodedisplay(y, "y")
-
-using Plots; gr()
-
-for lim ∈ n:n:n^2
-	@show lim
-	sc = scatter!(x1[lim-n+1:lim], x2[lim-n+1:lim], legend=:none)
-	display(sc)
-	sleep(1)
-end
+=#
 
 # Create the dataset for an "XOR" problem
-X = hcat(digits.(0:3, base=2, pad=2)...)
-y = reshape(xor.(eachrow(x)...), 1, 4)
-data = Flux.Data.DataLoader((X, y))
+X = 2 .* rand(Float32, 1000, 2) .- 1;
+vscodedisplay(X, "X")
+
+y = [xor(row[1]>0, row[2]>0) for row ∈ eachrow(X)]
+vscodedisplay(y, "y")
+
+using Plots
+scatter(X[:, 1], X[:, 2], group=y)
+
+data = Flux.Data.DataLoader((X', y'))
 
 # `mdl` is the model to be built 
 mdl = Chain(
 			Dense(2 => 2, relu),
 			Dense(2 => 1, σ)
 			)
-# `ps` contains all trainable parameters			
-ps = Flux.params(mdl)
-# Predicted output 
-ŷ = mdl(x)
-# `mloss` is the loss function to be minimized
-loss(x, y) = Flux.Losses.logitbinarycrossentropy(mdl(x), y)
+
 # `opt` designates the optimizer
 opt = Adam()
-#= TRAINING =#
-for _ ∈ 1:epochs
-	Flux.train!(loss, ps, data, opt)
+# `state` contains all trainable parameters
+state = Flux.setup(opt, mdl)		
+
+#= TRAINING PHASE=#
+losses = []
+using ProgressMeter
+
+@showprogress for epoch in 1:10
+    for (X, y) in data
+		# Begin a gradient context session
+        loss, grads = Flux.withgradient(mdl) do m
+            # Evaluate model:
+            ŷ = m(X)
+			# Evaluate loss:
+            Flux.binarycrossentropy(ŷ, y)
+        end
+        Flux.update!(state, mdl, grads[1])
+        push!(losses, loss)  # Logging, outside gradient context
+    end
 end
