@@ -19,4 +19,3 @@ hat_clusters = kmeans(X', 5; display=:iter)
 
 scatter(ss, income, marker_z=hat_clusters.assignments, color=:lightrainbow, legend=false)
 scatter!(hat_clusters.centers[1,:], hat_clusters.centers[2,:], color=:black, legend=true)
-

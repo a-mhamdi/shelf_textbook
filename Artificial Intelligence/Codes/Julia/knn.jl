@@ -20,4 +20,3 @@ k = 3
 tst = rand(1:l, Int(.2*l)) 
 # Find nearest neighbors using k-NN and k-d tree
 idxs, dists = knn(tree, x[tst], k, true)
-
