@@ -75,4 +75,3 @@ sc3 = scatter(X[1,:], X[2,:], group=y_pred;
     title="AFTER", labels=["False" "True"])
 
 plot(sc1, sc3, layout=(1,2), size=(512,512))
-
