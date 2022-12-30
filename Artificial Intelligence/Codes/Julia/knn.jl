@@ -1,22 +1,31 @@
+#= k-Nearest Neighbors =#
+
+## Import Librairies
 using CSV, DataFrames
+using Plots; unicodeplots()
+using MLJ
 
+## Read Dataset => `df`
 df = CSV.read("../Datasets/Social_Network_Ads.csv", DataFrame)
-x = Float64.(df[!, 2]);
-y = df[!, end];
 
-println(typeof(x), size(x))
-l = size(x)[1]
+## Unpack Data
+features, target = unpack(df,
+                          ==(:EstimatedSalary),
+                          ==(:Purchased);
+                          :EstimatedSalary => Continuous,
+                          :Purchased => Multiclass)
 
-using Plots; unicodeplots() 
-g1 = scatter(x, y; c=y, legend=false); 
+## Scatter Plot
+scatter(features, target; group=target, legend=false)
 
-using NearestNeighbors
+## Convert Data
+x = Tables.table(features);
+y = target;
 
-# KDTree(data, metric; leafsize, reorder)
-tree = KDTree(x')
-# Initialize k for k-NN
-k = 3
+## Find Nearest Neighbors
+@load KNNClassifier pkg=NearestNeighborModels
+knn = KNNClassifier(K=3)
+mach = machine(knn, x, y) |> fit!
 
-tst = rand(1:l, Int(.2*l)) 
-# Find nearest neighbors using k-NN and k-d tree
-idxs, dists = knn(tree, x[tst], k, true)
+## Evaluate Model
+evaluate!(mach)

@@ -4,27 +4,31 @@
 using DataFrames, CSV
 using MLJ
 
+## Load Data
 df = CSV.read("../Datasets/Social_Network_Ads.csv", DataFrame)
-describe(df)
+schema(df)
+
 ## Unpacking Data
-y, Z = unpack(df,
-    ==(:Purchased);     # y is the :Purchased column
-    #!=(:Age);          # Z is the rest, except :Age
-    :Age => Continuous, # Correcting wrong scitypes
-    :EstimatedSalary => Continuous,
+x, y = unpack(df,
+    ==(:EstimatedSalary),           # `x` is the :EstimatedSalary Column
+    ==(:Purchased);                 # `y` is the :Purchased Column
+    :EstimatedSalary => Continuous, # Correcting Wrong Scitypes
     :Purchased => Multiclass)
-### Construct an Abstract Matrix `X`
-X = hcat(Z.Age, Z.EstimatedSalary)
-### Splitting Data into Train and Test
+
+## Splitting Data into Train and Test
 train, test = partition(eachindex(y), 0.8, shuffle=true, rng=123)
-# Import SVC and bind it to SVM
+
+## Import SVC and bind it to SVM
 SVM = @load SVC pkg = LIBSVM
 clf = SVM()
-# Train the classifier on the training data
-mach = machine(clf, table(X[train, :]), y[train]) |> fit!
-# Use the trained classifier to make predictions on the test data
-y_hat = predict(mach, X[test, :])
-# Evaluate the model's performance
+
+## Train the classifier on the training data
+mach = machine(clf, Tables.table(x[train]), y[train]) |> fit!
+
+## Use the trained classifier to make predictions on the test data
+y_hat = predict(mach, Tables.table(X[test]))
+
+## Evaluate the model's performance
 accuracy = mean(y_hat .== y[test]);
 println("Accuracy is about $(round(100*accuracy))%")
 

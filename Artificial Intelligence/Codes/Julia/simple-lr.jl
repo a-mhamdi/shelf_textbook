@@ -1,17 +1,32 @@
+#= SIMPLE LINEAR REGRESSION =#
+
+## Import Librairies
 using CSV, DataFrames
 using MLJ
-## Read data using .csv file. Convert it to DataFrame object
+
+## Read Data Using .csv File. Convert It To DataFrame Object
 df = CSV.read("../Datasets/Salary_Data.csv", DataFrame)
-## Unpacking Features and Target
-X = select(df, :YearsExperience) # |> Tables.matrix |> table
-y = df.Salary # |> Tables.matrix |> table
-## Preparing for the split
-# train, test = partition(eachindex(y), 0.8, shuffle=true, rng=123)
-## Load and instantiate the linear regressor object
+
+## Unpacking Features & Target
+x = df.YearsExperience
+y = df.Salary 
+
+## Preparing The Split
+train, test = partition(eachindex(y), 0.8, shuffle=true, rng=123)
+xtrain, xtest = x[train], x[test]
+ytrain, ytest = y[train], y[test]
+
+## Load & Instantiate The Linear Regressor Object
 LR = @load LinearRegressor pkg=MLJLinearModels
 lr = LR()
-mach = machine(lr, X, y)
+
+## Train & Fit
+mach = machine(lr, Tables.table(xtrain), ytrain) |> fit!
 fit!(mach)
-yhat = predict(mach, X)
+
+## Prediction
+yhat = predict(mach, Tables.table(xtest))
+
+## Results & Metrics
 fitted_params(mach)
-println("Error is $(sum( (yhat .- y).^2 ))")
+println("Error is $(sum( (yhat .- ytest).^2 ))")
