@@ -37,7 +37,7 @@ p2 = plot(score, service_chart["values"], ylabel="Service", label=service_chart[
 p3 = plot(score, tip_chart["values"], xlabel="Score", ylabel="Tip", label=tip_chart["names"], legend=:bottomright)
 
 graphs = plot(p1, p2, p3, layout=(3, 1), lw=2)
-savefig(graphs, "./images/mf-graphs.pdf")
+# savefig(graphs, "./images/mf-graphs.pdf")
 
 # FUZZY INFERENCE SYSTEM: MAMDANI
 fis = FISMamdani([food, service], tip, rules)
