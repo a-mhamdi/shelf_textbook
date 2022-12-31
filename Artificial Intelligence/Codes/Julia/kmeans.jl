@@ -1,4 +1,6 @@
-#= KMEANS: `K-means` is a clustering algorithm that is used to partition an unlabeled dataset into a specified number of clusters. =#
+#= KMEANS =#
+
+#= It is a clustering algorithm that is used to partition an unlabeled dataset into a specified number of clusters. =#
 
 ## Import Librairies
 using CSV, DataFrames

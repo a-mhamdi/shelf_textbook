@@ -1,7 +1,9 @@
+#= SUPPORT VECTOR MACHINE FOR CLASSIFICATION =#
+
 #= Here is an example of how we might implement an `SVM`` in _Julia_ for classification tasks using the `LIBSVM` package interfacing with `MLJ` module.
 =#
 
-using DataFrames, CSV
+using CSV, DataFrames
 using MLJ
 
 ## Load Data

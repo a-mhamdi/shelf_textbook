@@ -1,9 +1,8 @@
 #= COMMON DATA PREPROCESSING `WORKFLOWS` =#
 
 ## Import Librairies
+using CSV, DataFrames
 using MLJ
-using CSV
-using DataFrames
 
 ## Import Data From CSV File
 df = CSV.read("../Datasets/Data.csv", DataFrame)

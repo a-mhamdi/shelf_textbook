@@ -27,8 +27,8 @@ Xtrain = MLJ.transform(mach, Xtrain);
 Xtest = MLJ.transform(mach, Xtest);
 
 ## Load The `LogisticClassifier` & Bind It To `lc`
-@load LogisticClassifier pkg=MLJLinearModels
-lc = LogisticClassifier()
+LC = @load LogisticClassifier pkg=MLJLinearModels
+lc = LC()
 
 ## Train The Logistic Classifier
 mach = machine(lc, Xtrain, ytrain) |> fit!

@@ -2,7 +2,7 @@
 
 ## Import Librairies
 using CSV, DataFrames
-using Plots; unicodeplots()
+using Plots; # unicodeplots()
 using MLJ
 
 ## Read Dataset => `df`
@@ -23,8 +23,8 @@ x = Tables.table(features);
 y = target;
 
 ## Find Nearest Neighbors
-@load KNNClassifier pkg=NearestNeighborModels
-knn = KNNClassifier(K=3)
+KNN = @load KNNClassifier pkg=NearestNeighborModels
+knn = KNN(K=3)
 mach = machine(knn, x, y) |> fit!
 
 ## Evaluate Model

@@ -1,3 +1,5 @@
+#= XOR GATE =#
+
 # This code considers the XOR problem. In order to be able to run it, simply execute `julia -e "import Pkg; Pkg.activate(\"\"); include(\"xor-gate.jl\")"`
 
 using Flux
@@ -13,31 +15,33 @@ end
 X = hcat(x1, x2)
 =#
 
-# Create the dataset for an "XOR" problem
+## Create the dataset for an "XOR" problem
 X = rand(Float32, 2, 1_024);
 # vscodedisplay(X, "X")
-
 y = [xor(col[1]>.5, col[2]>.5) for col in eachcol(X)]
 # vscodedisplay(y, "y")
 yoe = Flux.onehotbatch(y, [true, false])
 
-using Plots; unicodeplots()
+using Plots; # unicodeplots()
 
 sc = scatter(X[1,:], X[2,:], group=y; labels=["False" "True"])
 loader = Flux.Data.DataLoader((X, yoe), batchsize=64, shuffle=true)
 
-# `mdl` is the model to be built 
+## `mdl` is the model to be built 
 mdl = Chain(Dense(2 => 3, tanh),
         BatchNorm(3),
 	Dense(3 => 2),
         softmax)
 
-# Raw output before training
+## Raw output before training
 y_raw = mdl(X)
-# `opt` designates the optimizer
+
+## `opt` designates the optimizer
 opt = Adam(.01)
-# `state` contains all trainable parameters
-state = Flux.setup(opt, mdl)		
+
+## `state` contains all trainable parameters
+state = Flux.setup(opt, mdl)
+
 #= TRAINING PHASE =#
 vec_loss = []
 
@@ -56,12 +60,14 @@ using ProgressMeter
     end
 end
 
-# Predicted output after being trained
+## Predicted output after being trained
 y_hat = mdl(X)
 y_pred = (y_hat[1, :] .> .5)
-# Accuracy: How much we got right over all cases, i.e., (TP+TN)/(TP+TN+FP+FN)
+
+## Accuracy: How much we got right over all cases, i.e., (TP+TN)/(TP+TN+FP+FN)
 accuracy = Flux.Statistics.mean( (y_pred .> .5) .== y )
-# Plot loss vs. iteration
+
+## Plot loss vs. iteration
 plot(vec_loss; 
     xaxis=(:log10, "Iteration"),
     yaxis="Loss",
