@@ -5,7 +5,7 @@ using CSV, DataFrames
 using MLJ
 
 ## Read Data From CSV File
-df = CSV.read("../Datasets/Social_Network_Ads.csv", DataFrame)
+df = CSV.read("../../Datasets/Social_Network_Ads.csv", DataFrame)
 schema(df)
 
 ## Unpack Features & Target

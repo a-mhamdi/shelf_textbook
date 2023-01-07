@@ -6,7 +6,7 @@ using Plots; # unicodeplots()
 using MLJ
 
 ## Read Dataset => `df`
-df = CSV.read("../Datasets/Social_Network_Ads.csv", DataFrame)
+df = CSV.read("../../Datasets/Social_Network_Ads.csv", DataFrame)
 
 ## Unpack Data
 features, target = unpack(df,

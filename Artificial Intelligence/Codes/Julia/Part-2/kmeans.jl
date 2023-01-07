@@ -8,7 +8,7 @@ using Plots; # unicodeplots()
 using MLJ
 
 ## Load Data From CSV File
-df = CSV.read("../Datasets/Mall_Customers.csv", DataFrame);
+df = CSV.read("../../Datasets/Mall_Customers.csv", DataFrame);
 schema(df)
 first(df, 5)
 

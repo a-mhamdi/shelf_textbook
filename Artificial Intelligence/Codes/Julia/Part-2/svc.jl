@@ -7,7 +7,7 @@ using CSV, DataFrames
 using MLJ
 
 ## Load Data
-df = CSV.read("../Datasets/Social_Network_Ads.csv", DataFrame)
+df = CSV.read("../../Datasets/Social_Network_Ads.csv", DataFrame)
 schema(df)
 
 ## Unpacking Data
@@ -21,7 +21,7 @@ x, y = unpack(df,
 train, test = partition(eachindex(y), 0.8, shuffle=true, rng=123)
 
 ## Import SVC and bind it to SVM
-SVM = @load SVC pkg = LIBSVM
+SVM = @load SVC pkg=LIBSVM
 clf = SVM()
 
 ## Train the classifier on the training data

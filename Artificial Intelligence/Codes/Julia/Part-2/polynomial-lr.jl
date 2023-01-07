@@ -6,7 +6,7 @@ using Plots
 using MLJ
 
 ## Read Data From File
-df = CSV.read("../Datasets/Position_Salaries.csv", DataFrame)
+df = CSV.read("../../Datasets/Position_Salaries.csv", DataFrame)
 schema(df)
 
 x = select(df, :Level)

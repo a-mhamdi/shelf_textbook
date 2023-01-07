@@ -5,7 +5,7 @@ using CSV, DataFrames
 using MLJ
 
 ## Import Data From CSV File
-df = CSV.read("../Datasets/Data.csv", DataFrame)
+df = CSV.read("../../Datasets/Data.csv", DataFrame)
 describe(df)
 nrow(df), ncol(df)
 schema(df)

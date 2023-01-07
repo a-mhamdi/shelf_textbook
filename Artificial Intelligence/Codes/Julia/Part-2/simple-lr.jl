@@ -5,7 +5,7 @@ using CSV, DataFrames
 using MLJ
 
 ## Read Data Using .csv File. Convert It To DataFrame Object
-df = CSV.read("../Datasets/Salary_Data.csv", DataFrame)
+df = CSV.read("../../Datasets/Salary_Data.csv", DataFrame)
 
 ## Unpacking Features & Target
 x = df.YearsExperience

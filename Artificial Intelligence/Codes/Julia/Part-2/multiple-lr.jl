@@ -5,7 +5,7 @@ using CSV, DataFrames
 using MLJ
 
 ## Load Data From CSV File
-df = CSV.read("../Datasets/50_Startups.csv", DataFrame)
+df = CSV.read("../../Datasets/50_Startups.csv", DataFrame)
 schema(df)
 
 ## Design The Features
