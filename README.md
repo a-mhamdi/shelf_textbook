@@ -2,7 +2,6 @@
 
 1. [Calcul scientifique](https://github.com/a-mhamdi/shelf_textbook/tree/main/Calcul%20scientifique)
 1. [Modélisation et commande des systèmes](https://github.com/a-mhamdi/shelf_textbook/tree/main/Mod%C3%A9lisation%20et%20commande%20des%20syst%C3%A8mes)
-1. [Traitement de signal](https://github.com/a-mhamdi/shelf_textbook/tree/main/Traitement%20de%20signal)
 1. [Électronique analogique](https://github.com/a-mhamdi/shelf_textbook/tree/main/Électronique%20analogique)
 1. [Électronique de commande](https://github.com/a-mhamdi/shelf_textbook/tree/main/Électronique%20de%20commande)
 
@@ -13,9 +12,6 @@
 
 ### **Modélisation et commande des systèmes**
 *(modélisation, modèle de comportement, identification graphique : BO & BF, équation d'état, commandabilité, commande par retour d'état, observabilité et observateur d'état)*
-
-### **Traitement de signal**
-*(signaux : synthèse et représentation, convolution et filtrage, Fourier)*
 
 ### **Électronique analogique**
 *(ALI, montages de base, générateur de signaux, filtres)*
