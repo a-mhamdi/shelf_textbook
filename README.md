@@ -13,7 +13,7 @@
 *(ALI, montages de base, générateur de signaux, filtres)*
 
 ### **Électronique de commande**
-*(RS232, MAX232, ALI, NE555, commande en position)*
+*(RS232, MAX232, ALI, NE555, commande en position, ROS2)*
 
 ------
 ![ISET de Bizerte](logo-isetbz.png)
